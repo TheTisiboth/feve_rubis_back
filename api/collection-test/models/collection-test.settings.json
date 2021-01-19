@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collection_tests",
+  "info": {
+    "name": "Collection test"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titre": {
+      "type": "string"
+    }
+  }
+}
