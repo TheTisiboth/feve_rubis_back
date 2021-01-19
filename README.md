@@ -1,1 +1,3 @@
-# feve_rubis_back
+# Strapi application
+
+A quick description of your strapi application

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/musiques",
+      "handler": "musiques.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/musiques/count",
+      "handler": "musiques.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/musiques/:id",
+      "handler": "musiques.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/musiques",
+      "handler": "musiques.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/musiques/:id",
+      "handler": "musiques.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/musiques/:id",
+      "handler": "musiques.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
