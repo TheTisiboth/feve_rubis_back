@@ -35,8 +35,8 @@
       "required": false
     },
     "albums": {
-      "collection": "album",
-      "via": "musiques"
+      "via": "musiques",
+      "collection": "album"
     }
   }
 }
