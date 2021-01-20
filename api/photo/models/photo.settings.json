@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "musiques",
+  "collectionName": "photos",
   "info": {
-    "name": "Musiques",
-    "description": ""
+    "name": "Photo"
   },
   "options": {
     "increments": true,
@@ -13,30 +12,16 @@
   "attributes": {
     "Titre": {
       "type": "string",
-      "unique": false,
       "required": true
     },
     "Fichier": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "files"
-      ],
-      "plugin": "upload",
-      "required": true
-    },
-    "Image": {
-      "collection": "file",
-      "via": "related",
-      "allowedTypes": [
         "images"
       ],
       "plugin": "upload",
-      "required": false
-    },
-    "albums": {
-      "collection": "album",
-      "via": "musiques"
+      "required": true
     }
   }
 }

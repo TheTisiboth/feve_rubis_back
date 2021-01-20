@@ -25,9 +25,12 @@
       "required": true
     },
     "musiques": {
-      "collection": "musiques",
       "via": "albums",
+      "collection": "musiques",
       "dominant": true
+    },
+    "NumbreTest": {
+      "type": "integer"
     }
   }
 }
